@@ -1,0 +1,12 @@
+<scroll-view scroll-y="true">
+<view class="container">
+  <view class="title">
+    <text class="title-text">礼品卡详情</text>
+  </view>
+  <view class="content">
+    <text>适用门店：<a href="#">查看全部门店</a></text>
+    <text>可用时段：</text><text>{{giftList.time}}</text>
+    <text>使用须知：</text><text>{{giftList.summary}}</text>
+  </view>
+</view>
+</scroll-view>
